@@ -1,0 +1,42 @@
+
+
+body{
+    padding: 0px;
+    padding-top: 65px;
+    margin: 0px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.card{
+    background-color: whitesmoke;
+    height: 600px;
+    width: 450px;
+    padding: 20px;
+    margin: 50px 10px;
+    border: solid 6px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 250px 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.09);
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
